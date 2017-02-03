@@ -3,18 +3,13 @@
 	<parent>
 		<artifactId>nosqlunit</artifactId>
 		<groupId>com.lordofthejars</groupId>
-		<version>0.10.0</version>
+		<version>0.12.1-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 	</parent>
 	<artifactId>nosqlunit-redis</artifactId>
 
 
 	<dependencies>
-	
-		<dependency>
-			<groupId>com.google.guava</groupId>
-			<artifactId>guava</artifactId>
-		</dependency>
 	
 		<dependency>
 			<artifactId>nosqlunit-core</artifactId>
@@ -25,11 +20,6 @@
 		<dependency>
 			<groupId>redis.clients</groupId>
 			<artifactId>jedis</artifactId>
-		</dependency>
-	
-		<dependency>
-				<groupId>com.google.code.findbugs</groupId>
-				<artifactId>jsr305</artifactId>
 		</dependency>
 	
 		<dependency>
